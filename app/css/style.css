@@ -9189,6 +9189,8 @@ header.container-fluid {
     color: #005D8C; }
   .item_sale:hover .gray_box {
     top: 43px; }
+  .item_sale:focus {
+    outline: none; }
 
 .item_link {
   position: relative;
@@ -9497,6 +9499,22 @@ footer.container-fluid {
     .arrow_up a:hover img {
       top: -20px; }
 
+/*preloader*/
+#hellopreloader > p {
+  display: none; }
+
+#hellopreloader_preload {
+  display: block;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  background: url(../img/icons/three-dots.svg) center center no-repeat;
+  background-size: 41px; }
+
 /* modal */
 .modal-open .modal {
   overflow-y: scroll; }
@@ -9542,7 +9560,8 @@ footer.container-fluid {
   top: 49px;
   right: 63px;
   width: 40px;
-  height: 24px; }
+  height: 24px;
+  z-index: 200; }
   .close:hover {
     opacity: .5;
     -webkit-transition: all 0.4s ease;
@@ -9737,7 +9756,7 @@ video {
   .modal .button {
     width: 100%; }
   .close {
-    position: static; }
+    right: 10px; }
   /**/
   .modal-dialog {
     width: 94%;
@@ -9791,7 +9810,10 @@ video {
   .blue_line {
     display: none; }
   .button_invisible {
-    opacity: 1; } }
+    opacity: 1; }
+  /**/
+  .item_link .item_price {
+    color: #005D8C; } }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -9907,7 +9929,9 @@ video {
     width: 70%; }
   .modal-content {
     padding-left: 15px;
-    padding-right: 15px; } }
+    padding-right: 15px; }
+  .item_link .item_price {
+    color: #005D8C; } }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -9949,7 +9973,9 @@ video {
     width: 70%; }
   .modal-content {
     padding-left: 15px;
-    padding-right: 15px; } }
+    padding-right: 15px; }
+  .item_link .item_price {
+    color: #005D8C; } }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -9994,4 +10020,6 @@ video {
     position: absolute;
     top: 1050px;
     left: 16px;
-    z-index: -1; } }
+    z-index: -1; }
+  .modal-dialog {
+    margin: 13% auto; } }

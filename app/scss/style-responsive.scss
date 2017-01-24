@@ -150,7 +150,7 @@
     width: 100%;
   }
   .close {
-    position: static;
+    right:10px;
   }
   /**/
   .modal-dialog {
@@ -234,6 +234,10 @@
   }
   .button_invisible {
     opacity: 1;
+  }
+  /**/
+  .item_link .item_price {
+    color: $b-green;
   }
 }
 
@@ -404,6 +408,9 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .item_link .item_price {
+    color: $b-green;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -469,7 +476,9 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  .item_link .item_price {
+    color: $b-green;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -528,5 +537,9 @@
     top: 1050px;
     left: 16px;
     z-index: -1;
+  }
+
+  .modal-dialog {
+    margin: 13% auto;
   }
 }
