@@ -35,6 +35,7 @@ $(document).ready(function () {
                     $("#modal-preloader").css("opacity", "0");
                 },500);
 
+                $("#modalSelect").chosen({disable_search: true, width: "100%", scroll_to_highlighted: false});
             });
         } else {
             alert("Error sending form. Try again later");

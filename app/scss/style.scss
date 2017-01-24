@@ -149,6 +149,84 @@ select {
   @include regular-text(400, 1.250em);
 }
 
+.chosen-container {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  border: solid 2px $white;
+  padding: {
+    top: 11px;
+    bottom: 12px;
+    left: 34px;
+    right: 34px;
+  }
+  color: $white;
+  margin-bottom: 35px;
+  border-radius: 0;
+  @include regular-text(400, 1.250em);
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: none;
+  color: $white;
+  background: none;
+  box-shadow: none;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single b {
+  color: $white;
+}
+
+.relative-select .chosen-with-drop .chosen-drop {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100.8%;
+  background: #005D8C;
+  border: 2px solid $white;
+  color: $white;
+  margin-bottom: 35px;
+  border-radius: 0;
+  @include regular-text(400, 1em);
+  left: -2px;
+}
+
+.chosen-container .chosen-results {
+  color: $white;
+  padding: 0;
+  margin: 0;
+}
+
+.chosen-container-single .chosen-single {
+  padding: 0 0 0 26px;
+}
+
+.chosen-container:hover {
+  cursor: pointer;
+}
+
+.chosen-container .chosen-results li.active-result {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.chosen-container .chosen-results li.highlighted {
+  background: $white;
+  color: #005D8C;
+}
+
+.chosen-container .chosen-results li.active-result:hover {
+  background: $white;
+  color: #005D8C;
+}
+
+.chosen-container-single .chosen-single {
+  border: none;
+  color: $white;
+  background: none;
+  box-shadow: none;
+}
+
 .relative-select {
   position: relative;
   width: 50%;
@@ -159,6 +237,7 @@ select {
   color: $white;
   top: 20%;
   right:9%;
+  display: none;
 }
 
 .order_from {

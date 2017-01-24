@@ -8627,6 +8627,83 @@ select {
   font-style: normal;
   font-stretch: normal; }
 
+.chosen-container {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  border: solid 2px #fff;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 34px;
+  padding-right: 34px;
+  color: #fff;
+  margin-bottom: 35px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 1.25em;
+  font-style: normal;
+  font-stretch: normal; }
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: none;
+  color: #fff;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.chosen-container-active.chosen-with-drop .chosen-single b {
+  color: #fff; }
+
+.relative-select .chosen-with-drop .chosen-drop {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100.8%;
+  background: #005D8C;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 35px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 1em;
+  font-style: normal;
+  font-stretch: normal;
+  left: -2px; }
+
+.chosen-container .chosen-results {
+  color: #fff;
+  padding: 0;
+  margin: 0; }
+
+.chosen-container-single .chosen-single {
+  padding: 0 0 0 26px; }
+
+.chosen-container:hover {
+  cursor: pointer; }
+
+.chosen-container .chosen-results li.active-result {
+  padding: 15px 0;
+  width: 100%; }
+
+.chosen-container .chosen-results li.highlighted {
+  background: #fff;
+  color: #005D8C; }
+
+.chosen-container .chosen-results li.active-result:hover {
+  background: #fff;
+  color: #005D8C; }
+
+.chosen-container-single .chosen-single {
+  border: none;
+  color: #fff;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
 .relative-select {
   position: relative;
   width: 50%;
@@ -8636,7 +8713,8 @@ select {
   position: absolute;
   color: #fff;
   top: 20%;
-  right: 9%; }
+  right: 9%;
+  display: none; }
 
 .order_from {
   padding-left: 113px;
@@ -9651,6 +9729,8 @@ video {
 @media screen and (max-width: 767px) {
   body {
     overflow-x: hidden; }
+  .select-caret {
+    display: block; }
   .container-fluid {
     padding-left: 0;
     padding-right: 0; }
