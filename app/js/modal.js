@@ -20,7 +20,7 @@ $(document).ready(function () {
                     $(".modal-button").attr("href", entry[0][nameVar]['$t']);
 
                     $(entry).each(function () {
-                        if (this[nameVar]['$t'] != "" && this.gsx$name.$t != "") {
+                        if (this[nameVar]['$t'] != "") {
                             options += '<option value=' + this[nameVar]['$t'] + '>' + this.gsx$name.$t + '</option>';
                         }
                     });
@@ -51,5 +51,6 @@ $(document).ready(function () {
         $("#modal-show").css("opacity", "0");
         $("#modal-preloader").css("opacity", "1");
         $("#modalSelect").html("");
+        $("#modalSelect").chosen("destroy");
     });
 });
