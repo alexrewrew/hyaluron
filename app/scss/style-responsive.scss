@@ -1,6 +1,9 @@
 /* Extra small devices (phones, less than 768px) */
 
 @media screen and (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -35,12 +38,14 @@
     padding-top: 5px;
     padding-bottom: 7px;
     border: none;
+    margin-top: 50px;font-size: 1.750em;
   }
   .button {
     min-width: 100%;
   }
   .arrow_down {
     right: 15px;
+    z-index: 3;
   }
   .parallax_object1 {
     display: none;
@@ -189,6 +194,9 @@
   }
   .separator_big {
     display: none;
+  }
+  .nav-tabs {
+    overflow: hidden;
   }
   .nav-tabs > li > a {
     margin-bottom: 10px;
@@ -530,7 +538,7 @@
 
   .parallax_object5 {
     position: absolute;
-    top: 271px;
+    top: 171px;
     right: 0px;
     z-index: -1;
   }
