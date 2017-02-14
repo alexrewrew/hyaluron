@@ -9769,7 +9769,8 @@ video {
     right: 15px;
     bottom: 15px; }
   .parusan_cont {
-    padding-bottom: 75px; }
+    padding-top: 90px;
+    padding-bottom: 40px; }
   .white_box {
     padding-left: 0;
     padding-right: 0;
@@ -9783,6 +9784,14 @@ video {
   .gray_line {
     top: 0; }
   .parallax_object4 img {
+    width: 100%; }
+  .item_sale {
+    margin-left: 0;
+    margin-right: 0; }
+  .sale_cont {
+    padding-bottom: 10px;
+    padding-top: 50px; }
+  .parallax_object6 img {
     width: 100%; }
   .left_box .price_box {
     margin-left: 0; }
@@ -9802,7 +9811,7 @@ video {
     padding-right: 0; }
   .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 50px; }
   .accordion_angle {
     right: 20px; }
   .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
@@ -9869,7 +9878,7 @@ video {
   .nav-tabs > li > a {
     margin-bottom: 10px; }
   .tab-pane {
-    padding-top: 30px; }
+    padding-top: 10px; }
     .tab-pane img {
       width: 100%; }
     .tab-pane .button {

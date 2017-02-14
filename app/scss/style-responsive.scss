@@ -58,7 +58,8 @@
     bottom: 15px
   }
   .parusan_cont {
-    padding-bottom: 75px;
+    padding-top: 90px;
+    padding-bottom: 40px;
   }
   .white_box {
     padding-left: 0;
@@ -79,6 +80,19 @@
   }
   .parallax_object4 img {
     width: 100%;
+  }
+  .item_sale {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sale_cont {
+    padding-bottom: 10px;
+    padding-top:50px;
+  }
+  .parallax_object6 {
+    img {
+      width: 100%;
+    }
   }
   .left_box .price_box {
     margin-left: 0;
@@ -103,7 +117,7 @@
   }
   .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 50px;
   }
   .accordion_angle {
     right: 20px;
@@ -202,7 +216,7 @@
     margin-bottom: 10px;
   }
   .tab-pane {
-    padding-top: 30px;
+    padding-top: 10px;
     img {
       width: 100%;
     }
