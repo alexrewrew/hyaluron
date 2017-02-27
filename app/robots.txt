@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: https://pharmahyaluron.com.ua/sitemap.xml
