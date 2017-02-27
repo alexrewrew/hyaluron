@@ -1,3 +1,8 @@
+User-agent: Yandex
+Disallow:
+Host: pharmahyaluron.com.ua
+
 User-Agent: *
+Disallow:
 
 Sitemap: https://pharmahyaluron.com.ua/sitemap.xml
