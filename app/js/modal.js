@@ -21,7 +21,7 @@ $(document).ready(function () {
 
                     $(entry).each(function () {
                         if (this[nameVar]['$t'] != "") {
-                            options += '<option value=' + this[nameVar]['$t'] + '>' + this.gsx$name.$t + '</option>';
+                            options += "<option value='" + this[nameVar]['$t'] + "'>" + this.gsx$name.$t + "</option>";
                         }
                     });
                 } else {
