@@ -640,7 +640,8 @@ header.container-fluid {
 .parusan_cont {
   padding: {
     top: 89px;
-    bottom: 122px;
+    //bottom: 122px;
+    bottom: 86px;
   }
 }
 
@@ -866,7 +867,7 @@ header.container-fluid {
 }
 
 .separator_middle {
-  height: 108px;
+  height: 71px;
   background: transparent;
 }
 
@@ -877,7 +878,7 @@ header.container-fluid {
 
 /* ITEMS */
 .sale_cont {
-  padding-bottom: 5px;
+  padding-bottom: 9px;
 }
 .item_sale {
   position: relative;
@@ -939,6 +940,7 @@ header.container-fluid {
     top: 46px;
     bottom: 88px;
   }
+  margin-bottom: 45px;
   h2 {
     color: #626464;
   }
@@ -1003,6 +1005,7 @@ header.container-fluid {
 .accordion_row {
   padding: {
     top: 50px;
+    bottom:85px;
   }
 }
 
@@ -1470,6 +1473,10 @@ video {
 .new-main {
   display: none;
 }
-
+.to_main {
+  &:hover {
+    opacity: .6;
+  }
+}
 
 @import "style-responsive";
