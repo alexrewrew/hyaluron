@@ -10142,45 +10142,56 @@ video {
 @media (min-width: 1200px) {
   .container {
     width: 1018px; }
-  .parallax_object1 {
+  /*.parallax_object1 {
     position: absolute;
     top: 162px;
     left: 141px;
-    z-index: -1; }
+    z-index: -1;
+  }
   .parallax_object2 {
     position: absolute;
     top: 300px;
     left: 16px;
-    z-index: -1; }
+    z-index: -1;
+  }
   .parallax_object3 {
     position: absolute;
     top: 285px;
     left: 11px;
-    z-index: -1; }
+    z-index: -1;
+  }
   .parallax_object4 {
     position: absolute;
     top: 403px;
     right: 13px;
-    z-index: -1; }
+    z-index: -1;
+  }
+
   .parallax_object11 {
     position: absolute;
     top: 580px;
     left: 57px;
-    z-index: -1; }
+    z-index: -1;
+  }
   .parallax_object22 {
     position: absolute;
     top: 350px;
     left: -163px;
-    z-index: -1; }
+    z-index: -1;
+  }
+
   .parallax_object5 {
     position: absolute;
     top: 171px;
     right: 0px;
-    z-index: -1; }
+    z-index: -1;
+  }
+
   .parallax_object6 {
     position: absolute;
     top: 1050px;
     left: 16px;
-    z-index: -1; }
+    z-index: -1;
+  }*/
   .modal-dialog {
     margin: 13% auto; } }
