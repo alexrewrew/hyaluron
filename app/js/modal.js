@@ -2,6 +2,21 @@ $(document).ready(function () {
     $(".modalTarget").click(function () {
         var gid = $(this).parent().attr("id");
         if (gid != "") {
+            if (gid == '1') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('ZA'); ga ('send', 'event', 'cat1', 'za');");
+            } else if (gid == '2') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('PA'); ga ('send', 'event', 'cat1', 'pa');");
+            } else if (gid == '3') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('VA'); ga ('send', 'event', 'cat1', 'va');");
+            } else if (gid == '4') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('DA'); ga ('send', 'event', 'cat1', 'da');");
+            } else if (gid == '5') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('NA'); ga ('send', 'event', 'cat1', 'na');");
+            } else if (gid == '6') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('MA'); ga ('send', 'event', 'cat1', 'ma');");
+            } else if (gid == '7') {
+                $(".modal-button").attr("onclick", "yaCounter43269239.reachGoal('RA'); ga ('send', 'event', 'cat1', 'ra');");
+            }
             // ID of the Google Spreadsheet
             var spreadsheetID = "1F9VFCkJ3x0BQ3_ZCRpVtWlQLMM3vGZjnmJpBxSPqDGU";
 
