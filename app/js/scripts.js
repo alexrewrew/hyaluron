@@ -38,7 +38,7 @@ $(document).ready(function () {
         }, 1500);
     });
     // parallax
-    if ($(window).width() > '1200') {
+    /*if ($(window).width() > '1200') {
 
         $.fn.moveIt = function () {
             var $window = $(window);
@@ -65,7 +65,7 @@ $(document).ready(function () {
     ;
     $(function () {
         $('[data-scroll-speed]').moveIt();
-    });
+    });*/
 
     // accordion
     $('.panel-title > a').click(function () {

@@ -9052,7 +9052,7 @@ header.container-fluid {
 /* parusan container */
 .parusan_cont {
   padding-top: 89px;
-  padding-bottom: 86px; }
+  padding-bottom: 50px; }
 
 .parusan_logo1 {
   margin-bottom: 18px; }
@@ -9246,12 +9246,12 @@ header.container-fluid {
   background: transparent; }
 
 .separator_small {
-  height: 60px;
+  height: 110px;
   background: transparent; }
 
 /* ITEMS */
 .sale_cont {
-  padding-bottom: 9px; }
+  padding-bottom: 0; }
 
 .item_sale {
   position: relative;
@@ -9301,7 +9301,7 @@ header.container-fluid {
   background: #A5DFD5;
   padding-top: 46px;
   padding-bottom: 88px;
-  margin-bottom: 45px; }
+  margin-bottom: 25px; }
   .action_cont h2 {
     color: #626464; }
 
@@ -9797,8 +9797,7 @@ video {
     display: block; }
   .container-fluid {
     padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 70px; }
+    padding-right: 0; }
   h2 {
     font-size: 1.9em;
     margin-top: 0; }
@@ -9835,7 +9834,7 @@ video {
     right: 15px;
     bottom: 15px; }
   .parusan_cont {
-    padding-top: 24px;
+    padding-top: 70px;
     padding-bottom: 0px; }
   .white_box {
     margin-left: 0;
@@ -10193,5 +10192,49 @@ video {
     left: 16px;
     z-index: -1;
   }*/
+  .parallax_object1 {
+    position: relative;
+    top: 45px;
+    left: 125px;
+    z-index: -1; }
+  .parallax_object2 {
+    position: relative;
+    top: 123px;
+    left: 0;
+    z-index: -1; }
+    .parallax_object2 img {
+      margin-bottom: 100px; }
+  .parallax_object3 {
+    position: relative;
+    top: 185px;
+    left: 11px;
+    z-index: -1; }
+  .parallax_object4 {
+    position: relative;
+    top: 303px;
+    right: 13px;
+    z-index: -1; }
+  .parallax_object11 {
+    position: relative;
+    top: 80px;
+    left: 42px;
+    z-index: -1; }
+  .parallax_object22 {
+    position: relative;
+    top: 60px;
+    left: -163px;
+    z-index: -1; }
+  .parallax_object5 {
+    position: relative;
+    top: 171px;
+    right: 0px;
+    z-index: -1; }
+  .parallax_object6 {
+    position: relative;
+    top: 90px;
+    left: 16px;
+    z-index: -1; }
+    .parallax_object6 img {
+      margin-bottom: 60px; }
   .modal-dialog {
     margin: 13% auto; } }

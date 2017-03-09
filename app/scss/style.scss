@@ -641,7 +641,7 @@ header.container-fluid {
   padding: {
     top: 89px;
     //bottom: 122px;
-    bottom: 86px;
+    bottom: 50px;
   }
 }
 
@@ -872,13 +872,13 @@ header.container-fluid {
 }
 
 .separator_small {
-  height: 60px;
+  height: 110px;
   background: transparent;
 }
 
 /* ITEMS */
 .sale_cont {
-  padding-bottom: 9px;
+  padding-bottom: 0;
 }
 .item_sale {
   position: relative;
@@ -940,7 +940,7 @@ header.container-fluid {
     top: 46px;
     bottom: 88px;
   }
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   h2 {
     color: #626464;
   }
