@@ -9023,6 +9023,9 @@ header.container-fluid {
   width: 1100px;
   height: 165px;
   margin: 0 auto; }
+  .blue_line img {
+    height: 100%;
+    float: right; }
 
 .arrow_down {
   position: absolute;
@@ -9737,6 +9740,42 @@ video {
 .to_main:hover {
   opacity: .6; }
 
+.unique_cont {
+  background: url("../img/unique/walls.png") no-repeat center;
+  background-size: cover;
+  padding: 30px 0;
+  min-height: 400px; }
+  .unique_cont p {
+    font-weight: 700;
+    font-size: 1.875em;
+    color: #0064A0; }
+
+.condition_cont {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .condition_cont p {
+    font-weight: 700;
+    font-size: 1.375em; }
+
+.pharmacy {
+  padding: 0;
+  margin: 0; }
+  .pharmacy li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    color: #BABABA;
+    font-size: 1.875em;
+    margin-bottom: 20px;
+    width: 32%;
+    padding-right: 15px; }
+
+.nav-tabs.small-tabs > li > a {
+  min-width: 230px; }
+
+.small-content .tab-pane {
+  padding-top: 43px; }
+
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width: 767px) {
   .product_header {
@@ -9973,7 +10012,18 @@ video {
     opacity: 1; }
   /**/
   .item_link .item_price {
-    color: #005D8C; } }
+    color: #005D8C; }
+  .unique_cont {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .unique_cont p {
+      font-size: 1.25em; }
+  .pharmacy li {
+    font-size: 1.25em;
+    width: 49%; }
+  .nav-tabs.small-tabs > li {
+    width: 100%;
+    min-width: 100%; } }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -10091,7 +10141,16 @@ video {
     padding-left: 15px;
     padding-right: 15px; }
   .item_link .item_price {
-    color: #005D8C; } }
+    color: #005D8C; }
+  .pharmacy li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 25%;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+    max-width: 25%;
+    font-size: 1.5em; }
+  .nav-tabs.small-tabs > li > a {
+    margin-bottom: 30px; } }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -10112,7 +10171,11 @@ video {
   .parallax_object5 img {
     width: 100%; }
   .blue_line {
-    width: 970px; }
+    width: 970px;
+    top: 267px;
+    height: 148px; }
+  .girl {
+    right: 145px; }
   /**/
   .button_invisible {
     opacity: 1; }
@@ -10135,7 +10198,9 @@ video {
     padding-left: 15px;
     padding-right: 15px; }
   .item_link .item_price {
-    color: #005D8C; } }
+    color: #005D8C; }
+  .nav-tabs.small-tabs > li > a {
+    min-width: 200px; } }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {

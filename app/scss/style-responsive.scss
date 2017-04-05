@@ -343,6 +343,23 @@
   .item_link .item_price {
     color: $b-green;
   }
+  .unique_cont {
+    padding-left: 15px;
+    padding-right: 15px;
+    p {
+      font-size: 1.25em;
+    }
+  }
+  .pharmacy {
+    li {
+      font-size: 1.25em;
+      width: 49%;
+    }
+  }
+  .nav-tabs.small-tabs > li {
+    width: 100%;
+    min-width: 100%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -515,6 +532,16 @@
   .item_link .item_price {
     color: $b-green;
   }
+  .pharmacy {
+    li {
+      flex: 1 1 25%;
+      max-width: 25%;
+      font-size: 1.5em;
+    }
+  }
+  .nav-tabs.small-tabs > li > a {
+    margin-bottom: 30px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -548,6 +575,12 @@
   }
   .blue_line {
     width: 970px;
+
+    top: 267px;
+    height: 148px;
+  }
+  .girl {
+    right: 145px
   }
   /**/
   .button_invisible {
@@ -583,6 +616,10 @@
   .item_link .item_price {
     color: $b-green;
   }
+  .nav-tabs.small-tabs > li > a {
+    min-width: 200px;
+  }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -697,7 +734,7 @@
     left: 16px;
     z-index: -1;
     img {
-      margin-bottom:60px
+      margin-bottom: 60px
     }
   }
 
