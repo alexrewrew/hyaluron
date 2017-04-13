@@ -353,7 +353,7 @@
   .pharmacy {
     li {
       font-size: 1.25em;
-      width: 49%;
+      width: 100%;
     }
   }
   .nav-tabs.small-tabs > li {
@@ -534,8 +534,7 @@
   }
   .pharmacy {
     li {
-      flex: 1 1 25%;
-      max-width: 25%;
+      width:243px;
       font-size: 1.5em;
     }
   }
@@ -619,7 +618,11 @@
   .nav-tabs.small-tabs > li > a {
     min-width: 200px;
   }
-
+  .pharmacy {
+    li {
+      width: 213px;
+    }
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */

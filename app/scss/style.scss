@@ -1498,11 +1498,24 @@ video {
   background-size: cover;
   padding: 30px 0;
   min-height: 400px;
+  position: relative;
   p {
     font-weight: 700;
     font-size: 1.875em;
     color: #0064A0;
+    span {
+      font-weight: 900;
+    }
   }
+}
+
+.star-text {
+  position: absolute;
+  bottom: 0;
+  color: #4C4C4C;
+  font-size: .750em;
+  line-height: 30px;
+  margin-left: calc(8.33333333% + 15px);
 }
 
 .condition_cont {
@@ -1523,10 +1536,10 @@ video {
     display: inline-block;
     font-weight: 700;
     color: #BABABA;
-    font-size: 1.875em;
+    font-size: 1.35em;
     margin-bottom: 20px;
-    width: 32%;
-    padding-right: 15px;
+    width: 243px;
+    //padding-right: 15px;
     //border-bottom: 4px solid #0064A0;
   }
 }
